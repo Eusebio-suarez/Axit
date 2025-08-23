@@ -165,9 +165,135 @@ header{
             transition: all 400ms;
         }
 
-
     }
 
 } 
 
+#socialMedia{
+    display: flex;
+    padding: 20px 150px;
+    justify-content: space-between;
+    align-items:center;
+
+    border-bottom: 1px solid #565454;
+
+    #socialText{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    h3{
+        color: #565454;
+        font-size: 23px;
+    }
+
+    p{
+        color: #908f8f;
+        max-width: 400px;
+    }
+
+    img{
+        width: 550px;
+    }
+}
+
+#sectionTab{
+    display: flex;
+    padding: 150px;
+    font-weight: bold;
+    justify-content: space-between;
+    background-color: #f4f5f4;
+    color: #f0f0ff;
+
+    .tab{
+        width: fit-content;
+        padding: 45px 35px;
+        background-color: #323332;
+        border: 0.5px solid #d8d8da;
+    }
+
+    .orange{
+        background-color: #ff8b38;
+    }
+    #tabInfo{
+        display: flex;
+        flex-direction: column;
+        gap:40px;
+        h3{
+            color: #1c1c1c;
+        }
+
+        p{
+            font-weight: normal;
+            color: #908f8f;
+            max-width: 480px;
+        }
+
+        
+        button{
+            width: fit-content;
+            padding: 15px 30px;
+            background-color: #fe9a51;
+            font-weight: 800;
+            border: none;
+            color: #f2f2f8;
+            font-family: 'Raleway';
+            font-style: normal;
+            transition: all 400ms;
+        }
+
+        button:hover{
+            background-color: #ee8e49;
+            transition: all 400ms;
+        }
+    }
+}
+
+#sectionList{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 150px;
+
+    #listText{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        hr {
+            border: none;
+            height: 3px;
+            background-color:#ee8e49;
+            max-width: 15%;
+        }
+
+        p{
+            font-size: 14px;
+            max-width: 400px;
+            color:#908f8f;
+        }
+    }
+
+    .itemContainer{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+
+        .item{
+
+            h4{
+                font-size: medium;
+                font-weight: 400;
+            }
+
+            p{
+                max-width: 350px !important;
+            }
+        }
+     
+        img{
+            width: fit-content;
+            height: fit-content;
+        }
+    }
+}
 
