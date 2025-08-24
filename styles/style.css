@@ -877,3 +877,15 @@ footer{
         gap: 50px;
     }
 }
+
+@media (max-width: 920px) {
+    header{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    #itemsContainer{
+        flex-direction: column;
+    }
+}
