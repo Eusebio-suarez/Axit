@@ -216,6 +216,11 @@ header{
     .orange{
         background-color: #ff8b38;
     }
+
+    #tabsContainer{
+        display: flex;
+        flex-direction: column;
+    }
     #tabInfo{
         display: flex;
         flex-direction: column;
@@ -301,6 +306,11 @@ header{
     justify-content: space-between;
     padding: 100px 100px;
     background-color: #f4f5f4;
+
+    img{
+        object-fit: cover;
+    }
+
     #pictureText{
         display: flex;
         flex-direction: column;
@@ -783,5 +793,87 @@ footer{
         img{
             width: 24px;
         }
+    }
+}
+
+
+@media (max-width:1279px) {
+    #sectionStart{
+        flex-direction: column;
+        gap:100px;
+    }
+
+    #socialMedia{
+        text-align: center;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    #sectionTab{
+        padding: 100px 150px;
+        flex-direction: column;
+        align-items: center;
+        gap: 80px;
+
+        #tabsContainer{
+            flex-direction: row;
+        }
+
+        #tabInfo{
+            align-items: center;
+        }
+    }
+
+    #sectionList{
+        flex-direction: column;
+        align-items: center;
+        gap: 80px;
+
+        h3{
+            text-align: center;
+        }
+    }
+
+    #pictureSection{
+        flex-direction: column;
+        align-items: center;
+        gap: 80px;
+
+        img{
+            width: fit-content;
+            object-fit: cover;
+        }
+
+        #pictureText{
+            h3{
+                text-align: center;
+            }
+        }
+    }
+
+    #itemsContainer{
+        gap: 40px;
+    }
+
+    #pricingContainer{
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    #customersSection{
+        text-align: center;
+    }
+
+    .customersContainer{
+        flex-direction: column;
+        align-items: center;
+        gap: 150px;
+    }
+
+    form{
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
     }
 }
