@@ -765,3 +765,23 @@ header{
         }
     }
 }
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 150px;
+    background-color: #000000;
+    color: #d8d8da;
+    font-size: small;
+    gap: 10px;
+
+    #socialImgs{
+        display: flex;
+        gap: 20px;
+
+        img{
+            width: 24px;
+        }
+    }
+}
