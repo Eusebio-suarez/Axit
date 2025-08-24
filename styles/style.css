@@ -504,3 +504,95 @@ header{
     }
 }
 
+#customersSection{
+    padding: 100px 150px;
+
+    #customerText{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        h3{
+            font-family: Raleway;
+            font-style: inherit;
+            font-size: 40px;
+            font-weight: 300;
+        }
+
+        hr {
+            width: 10%;
+            border: none;
+            height: 3px;
+            background-color:#ee8e49;
+
+        }
+
+        p{
+            font-size: 14px;
+            max-width: 550px;
+            color:#908f8f;
+        }
+    }
+
+    .customersContainer{
+        display: flex;
+        padding: 80px 0px;
+        justify-content: space-between;
+
+        .customer{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            width: 237px;
+            height: 147px;
+            position: relative;
+            transition: all 400ms;
+
+            .textBox{
+                font-size: 14px;
+                color:#908f8f;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                text-align: center;
+                padding: 10px;
+                width: 237px;
+            }
+        }
+
+        .customer:hover{
+            transform: scale(105%);
+            transition: all 400ms;
+        }
+    }
+}
+
+.profile{
+    display: flex;
+    gap: 20px;
+    box-shadow: 3px 3px 6px 0px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    align-items: center;
+
+    img{
+        width: 80px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+
+    .profileText{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+
+        h3{
+            color: #1c1c1c;
+        }
+
+        p{
+            font-size: 14px;
+            color:#908f8f;
+        }
+    }
+}
