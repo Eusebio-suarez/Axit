@@ -297,3 +297,210 @@ header{
     }
 }
 
+#pictureSection{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 100px;
+    background-color: #f4f5f4;
+    #pictureText{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+
+        hr {
+            border: none;
+            height: 3px;
+            background-color:#ee8e49;
+            max-width: 15%;
+        }
+
+        p{
+            font-size: 14px;
+            max-width: 550px;
+            color:#908f8f;
+        }
+    }
+}
+
+#awesomeContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    padding: 100px 150px;
+
+    p{
+        font-size: 14px;
+        color:#908f8f;
+    }
+
+    #awesomeText{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+
+        h3{
+            font-family: Raleway;
+            font-style: inherit;
+            font-size: 40px;
+            font-weight: 300;
+        }
+
+        hr {
+            width: 20%;
+            border: none;
+            height: 3px;
+            background-color:#ee8e49;
+
+        }
+
+        p{
+            font-size: 14px;
+            max-width: 550px;
+            color:#908f8f;
+        }        
+    }
+
+    #itemsContainer{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        .awesomeItem{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            text-align: center;
+            
+
+            h3{
+                color: #1c1c1c;
+            }
+
+            p{
+                max-width: 380px;
+            }
+        }
+    }
+
+}
+
+#pricingSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 80px;
+    padding: 100px 100px;
+    background-color: #f4f5f4;
+
+    #pricingText{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        h3{
+            font-family: Raleway;
+            font-style: inherit;
+            font-size: 40px;
+            font-weight: 300;
+        }
+
+        hr {
+            width: 10%;
+            border: none;
+            height: 3px;
+            background-color:#ee8e49;
+
+        }
+
+        p{
+            font-size: 14px;
+            max-width: 550px;
+            color:#908f8f;
+        }
+    }
+
+    #pricingContainer{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+
+        .plan{
+            background-color: #333232;
+            color: #979799;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            transition: all 300ms;
+        }
+
+        .plan:hover{
+            transform: scale(103%);
+            transition: all 300ms;
+        }
+
+        h2{
+            color: #d8d8da;
+        }
+    }
+
+    .name{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 10px 0px;
+        border-bottom: 1px solid #f6f6f6;
+    }
+
+    .price{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-bottom: 4px solid #ee8e49;
+        padding-bottom: 20px;
+        
+        .priceElement{
+            color: #ffffff;
+            font-size: 40px;
+            font-weight: 900;
+        }
+
+        span{
+            font-family: 'Raleway';
+            font-weight: 700;
+            font-size: 110px;
+        }
+
+        .title{
+            font-style: italic;
+            font-weight: bold;
+        }
+    }
+
+    .itemsContainer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 90px;
+        gap: 20px;
+        background-color: #fffefe;
+        font-size: 14px;
+    }
+
+    #tag{
+        width: 100%;
+        text-align: center;
+        padding: 10px 0px;
+        background-color: #ee8e49;
+        p{
+            color: #fafafc;
+            font-weight: bold;
+        }
+    }
+}
+
