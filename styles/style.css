@@ -921,6 +921,10 @@ footer{
 
     #sectionTab{
         padding: 50px 60px;
+
+        img{
+            max-width: 100%;
+        }
     }
 
     #sectionList{
@@ -955,8 +959,19 @@ footer{
         padding: 50px 60px;
 
         #pricingText{
+            text-align: center;
             h3{
                 font-size: x-large ;
+            }
+        }
+
+        #pricingContainer{
+            .plan{
+                .priceElement{
+                    span{
+                        font-size: 70px;
+                    }
+                }
             }
         }
     }
@@ -1009,10 +1024,46 @@ footer{
     }
 
     footer{
-        
+
         #socialImgs{
             gap: 40px;
         }
     }
     
+}
+
+@media (max-width: 480px) {
+
+    nav{
+        text-align: center;
+        flex-direction: column;
+    }
+
+    #sectionStart{
+        justify-content: center;
+
+        #info{
+
+            h2{
+                font-size: x-large;
+            }
+
+        }
+      
+    }
+
+    #sectionTab{
+        #tabsContainer{
+           text-align: center;
+        }
+    }
+
+    footer{
+        padding: 20px 0px;
+
+        #socialImgs{
+            gap: 20px;
+        }
+
+    }
 }
